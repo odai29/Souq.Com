@@ -1,0 +1,97 @@
+﻿@model Product
+
+<div class="page-header" style="background: url(~/assets/img/banner1.jpg);">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="breadcrumb-wrapper">
+                    <h2 class="product-title">Details</h2>
+                    <ol class="breadcrumb">
+                        <li><a href="/Home/Index">Home /</a></li>
+                        <li class="current">Details</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section-padding">
+    <div class="container">
+
+        <div class="product-info row">
+            <div class="col-lg-8 col-md-12 col-xs-12">
+                <div class="ads-details-wrapper">
+                    <div class="product-img">
+                        <img class="img-fluid" src="~/Imgs/@Model.Image" alt="">
+                        <span class="price">JD @Model.Price</span>
+                    </div>
+                </div>
+                <div class="details-box">
+                    <div class="ads-details-info">
+                        <h2>@Model.Name</h2>
+                        <div class="details-meta">
+                            <span><i class="lni-alarm-clock"></i> @Model.Date</span>
+                            
+                        </div>
+                        <p class="mb-4">@Model.Description</p>
+                        
+                        
+                        
+                    </div>
+                    <div class="tag-bottom">
+                        <div class="float-left">
+                            <ul class="advertisement">
+                                <li>
+                                    <p><strong><i class="lni-folder"></i> Categories:</strong> <a href="/Home/ViewDetails/@Model.Id">@Model.category.Name</a></p>
+                                </li>
+                                <li>
+                                    <p><strong><i class="lni-archive"></i> Condition:</strong> New</p>
+                                </li>
+                               
+                            </ul>
+                        </div>
+                        <div class="float-right">
+                            <div class="share">
+                                <div class="social-link">
+                                    <a class="facebook" data-toggle="tooltip" data-placement="top" title="" href="#" data-original-title="facebook"><i class="lni-facebook-filled"></i></a>
+                                    <a class="twitter" data-toggle="tooltip" data-placement="top" title="" href="#" data-original-title="twitter"><i class="lni-twitter-filled"></i></a>
+                                    <a class="linkedin" data-toggle="tooltip" data-placement="top" title="" href="#" data-original-title="linkedin"><i class="lni-linkedin-fill"></i></a>
+                                    <a class="google" data-toggle="tooltip" data-placement="top" title="" href="#" data-original-title="google plus"><i class="lni-google-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-xs-12">
+
+                <aside class="details-sidebar">
+                    <div class="widget">
+                        <h4 class="widget-title">Add My Cart</h4>
+                        <div class="agent-inner">
+                            <div class="agent-title">
+                                <div class="agent-photo">
+                                    <a href="#"><img src="~/Imgs/@Model.Image" alt=""></a>
+                                </div>
+                                <div class="agent-details">
+                                    <h3><a href="#">@Model.Name</a></h3>
+                                    <p>@Model.category.Name</p>
+                                    <p>JD @Model.Price</p>
+                                </div>
+                            </div>
+                           
+
+                            <p>Click to add to cart</p>
+                            <a href="/Carts/AddProToCart/@Model.Id" class="btn btn-common fullwidth mt-4">Add To Cart</a>
+                        </div>
+                    </div>
+
+                    
+                </aside>
+
+            </div>
+        </div>
+
+    </div>
+</div>

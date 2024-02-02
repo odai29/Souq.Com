@@ -1,0 +1,58 @@
+﻿
+@model List<Product>
+<div id="hero-area">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-9 col-xs-12 text-center">
+                <div class="contents">
+                    <h1 class="head-title">Welcome to The Largest <span class="year">Souq.com</span></h1>
+                    <p>Buy and sell everything from used cars to mobile phones and computers, or search for property, jobs and more</p>
+                    <div class="search-bar">
+                        <div class="search-inner">
+                            <form asp-action="ProductSearch" asp-controller="Home" class="search-form">
+                                <div  class="form-group">
+                                    <input type="text" name="xname" class="form-control" placeholder="Search" aria-required="true">
+                                </div>
+
+                                <button class="btn btn-common" type="submit"><i class="lni-search"></i> Search Now</button>
+                            </form>
+                        </div>
+                    </div>
+                    <a href="/Home/FilterByPrice" class="btn btn-common" type="submit" style="top:15px"> Filter By Price</a>
+                    <a href="/Home/FilterByDate" class="btn btn-common" type="submit" style="top:15px"> Filter By Date</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="featured section-padding">
+    <div class="container">
+        <h1 class="section-title">Latest Products</h1>
+        <div class="row">
+           @foreach(var item in Model){
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4" >
+                <div class="featured-box" >
+
+                        <figure style="width:350px;height:218.75px">
+
+                            <img class="img-fluid" src="~/Imgs/@item.Image" alt="" style="width:350px;height:218.75px">
+                        </figure>
+                    <div class="feature-content" >
+                        <div style="width:310px;height:200px">
+                        <h4><a href="/Home/ViewDetails/@item.Id">@item.Name</a></h4>
+                        <h5>@item.Date</h5>
+                        <p class="dsc">@item.Description</p>
+                        </div>
+                        <div class="listing-bottom">
+                            <h3 class="price float-left">JD @item.Price</h3>
+                            <a href="/Home/ViewDetails/@item.Id" class="btn btn-common float-right">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           }
+        </div>
+    </div>
+</section>

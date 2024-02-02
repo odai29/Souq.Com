@@ -1,0 +1,180 @@
+﻿@model Souq.com.Models.Product
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+@* <h1>Create</h1>
+
+<h4>Product</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Date" class="control-label"></label>
+                <input asp-for="Date" class="form-control" type="datetime"/>
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Image" class="control-label"></label>
+                <input asp-for="Image" class="form-control" />
+                <span asp-validation-for="Image" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CategoryId" class="control-label"></label>
+                <select asp-for="CategoryId" class ="form-control" asp-items="ViewBag.CategoryId"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div> *@
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+
+
+
+<div class="page-header" style="background: url(~/assets/img/banner1.jpg);">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="breadcrumb-wrapper">
+                    <h2 class="product-title">Post you Ads</h2>
+                    <ol class="breadcrumb">
+                        <li><a href="#">Home /</a></li>
+                        <li class="current">Post you Ads</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="content" class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-3 page-sidebar">
+                <aside>
+                    <div class="sidebar-box">
+                        <div class="user">
+                           
+                            <div class="usercontent">
+                                <h3>Hello </h3>
+                                <h4>@User.Identity?.Name!</h4>
+                            </div>
+                        </div>
+                        <nav class="navdashboard">
+                            <ul>
+                                
+                                <li>
+                                    <a href="/Home/AboutUs">
+                                        <i class="lni-dashboard"></i>
+                                        <span>About</span>
+                                    </a>
+                                </li>
+                                <li>
+
+                                    <a href="/Home/Contact">
+                                        <i class="lni-envelope"></i>
+                                        <span>Contact</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/Products/Index">
+                                        <i class="lni-layers"></i>
+                                        <span>My Ads</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                   
+                </aside>
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-9">
+                <div class="row page-content">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7">
+                        <div class="inner-box">
+                            <div class="dashboard-box">
+                                <h2 class="dashbord-title">Ad Detail</h2>
+                            </div>
+                            <form asp-action="Create" enctype="multipart/form-data">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                <div class="dashboard-wrapper">
+                                    <div class="form-group mb-3">
+
+                                        <label asp-for="Name" class="control-label">Name</label>
+                                        <input asp-for="Name" class="form-control input-md" name="Name" placeholder="Name Product" type="text">
+                                        <span asp-validation-for="Name" class="text-danger"></span>
+                                    
+                                    </div>
+                                    <div class="form-group mb-3 tg-inputwithicon">
+                                        <label class="control-label">Categories</label>
+                                        <div class="tg-select form-control">
+
+                                                <select asp-for="CategoryId" class="form-control" asp-items="ViewBag.CategoryId"></select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <label asp-for="Price" class="control-label">Price Title</label>
+                                        <input asp-for="Price" class="form-control input-md" name="price" placeholder="Ad your Price" type="text">
+                                        <span asp-validation-for="Price" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <label asp-for="Description" class="control-label">Description</label>
+                                        <input asp-for="Description" class="form-control input-md" name="Description" placeholder="Descriptions" type="text">
+                                        <span asp-validation-for="Description" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <label asp-for="Date" class="control-label">Date</label>
+                                        <input asp-for="Date" class="form-control input-md" name="Date" placeholder="Date" type="date">
+                                        <span asp-validation-for="Image" class="text-danger"></span>
+                                    </div>
+                                   
+                                    <label asp-for="Image" class="tg-fileuploadlabel" for="tg-photogallery">
+                                        <span>Drop files anywhere to upload</span>
+                                        <span>Or</span>
+                                        <span class="btn btn-common">Select Files</span>
+                                        <span>Maximum upload file size: 500 KB</span>
+                                        <input asp-for="ImageFile" id="tg-photogallery" name="ImageFile" class="tg-fileinput" type="file">
+                                        <span asp-validation-for="ImageFile" class="text-danger"></span>
+                                    </label>
+                                    <button  class="btn btn-common" type="submit" style="left:170px">Post Ad</button>
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

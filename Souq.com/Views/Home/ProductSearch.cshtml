@@ -1,0 +1,57 @@
+﻿@model List<Product>
+<div id="hero-area">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-9 col-xs-12 text-center">
+                <div class="contents">
+                    <h1 class="head-title">Welcome to The Largest <span class="year">Souq.com</span></h1>
+                    <p>Buy and sell everything from used cars to mobile phones and computers, or search for property, jobs and more</p>
+                    <div class="search-bar">
+                        <div class="search-inner">
+                            <form asp-action="ProductSearch" asp-controller="Home" class="search-form">
+                                <div  class="form-group">
+                                    <input type="text" name="xname" class="form-control" placeholder="Search"required="">
+                                </div>
+
+                                <button class="btn btn-common" type="submit"><i class="lni-search"></i> Search Now</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="featured section-padding">
+    <div class="container">
+        <h1 class="section-title">Latest Products</h1>
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-4">
+                    <div class="featured-box">
+                        <figure>
+                            <div class="icon">
+                                <span class="bg-green"><i class="lni-heart"></i></span>
+                                <span><i class="lni-bookmark"></i></span>
+                            </div>
+                            <a href="#"><img class="img-fluid" src="~/assets/img/featured/img-1.jpg" alt=""></a>
+                        </figure>
+                        <div class="feature-content">
+
+                            <h4><a href="ads-details.html">@item.Name</a></h4>
+
+                            <p class="dsc">@item.Description</p>
+                            <div class="listing-bottom">
+                                <h3 class="price float-left">JD @item.Price</h3>
+                                <a href="ads-details.html" class="btn btn-common float-right">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>

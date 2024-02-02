@@ -1,0 +1,154 @@
+﻿@model IEnumerable<Souq.com.Models.Cart>
+
+@* @{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Quentity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.product)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quentity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.product.Name)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table> *@
+
+<div class="page-header" style="background: url(assets/img/banner1.jpg);">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="breadcrumb-wrapper">
+                    <h2 class="product-title">My Cart</h2>
+                    <ol class="breadcrumb">
+                        <li><a href="/Home/Index">Home /</a></li>
+                        <li class="current">My Cart</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br/>
+<br/>
+
+
+<div class="page-content" style="bottom:40px">
+    <h1 class="section-title">My Cart</h1>
+    <div class="inner-box" style="top:30px;margin-left:450px">
+       
+        
+
+        <table class="table table-responsive dashboardtable tablemyads" style="bottom:50px; border: 1px solid black;width: 750px; padding: 10px;">
+            
+            <thead style="background-color:#E91E63;">
+                    <tr>
+                      
+                    <th>
+                        @Html.DisplayNameFor(model => model.Date)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Price)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Quentity)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.product)
+                       
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.UserId)
+                    </th>
+                    <th></th>
+
+                </tr>
+                </thead>
+                <tbody >
+                    @foreach (var item in Model) {
+                    <tr data-category="active">
+                        <td>
+                            <div class="custom-control custom-checkbox">
+                              
+                            @Html.DisplayFor(modelItem => item.Date)
+                            </div>
+                        </td>
+                        <td data-title="Price">
+                            <h3>JD @Html.DisplayFor(modelItem => item.Price)</h3>
+                        </td>
+                        
+                        <td data-title="Title">
+                            <h3>@Html.DisplayFor(modelItem => item.Quentity)</h3>
+                            
+                        </td>
+                        <td data-title="Category"><span class="adcategories"> @Html.DisplayFor(modelItem => item.product.Name)</span></td>
+                        <td data-title="Ad Status"><span class="adstatus adstatusactive">@Html.DisplayFor(modelItem => item.UserId)</span></td>
+                        
+                        <td data-title="Action">
+                            <div class="btns-actions">
+                                
+                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn-action btn-delete" ><i class="lni-trash"></i></a>
+                            </div>
+                        </td>
+                        
+                    </tr>
+                    }
+                  <td><a href="/carts/GoOrder" class="btn btn-common fullwidth mt-4" style="left:550px">Check Out</a></td>
+
+                </tbody>
+            
+            </table>
+
+        </div>
+    
+    </div>
+</div>

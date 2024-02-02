@@ -1,0 +1,73 @@
+﻿@model Souq.com.Models.Category
+@{
+    Layout = "~/views/Shared/_LayoutAdmin.cshtml";
+}
+@* @{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Category</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Image" class="control-label"></label>
+                <input asp-for="Image" class="form-control" />
+                <span asp-validation-for="Image" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div> *@
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+
+
+<div class="col-sm-12 col-xl-6" style="margin-left:400px;margin-top:20px">
+    <div class="bg-secondary rounded h-100 p-4">
+        <h6 class="mb-4">Create</h6>
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="mb-3">
+                <label asp-for="Name" class="form-label">category Name</label>
+                <input asp-for="Name" type="text" class="form-control" aria-describedby="emailHelp">
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Description" class="form-label">Description</label>
+                <input asp-for="Description" type="text" class="form-control">
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            
+            
+             <div>
+                 <button type="submit" value="Create" class="btn btn-primary" style="background-color:red">Create</button>|
+                <a asp-action="Index" style="color:red">Back to List</a>
+             </div>
+        
+        </form>
+    </div>
+</div>

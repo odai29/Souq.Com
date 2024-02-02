@@ -1,0 +1,45 @@
+﻿@model List<Category>
+
+
+<div class="page-header" style="background: url(~/assets/img/banner1.jpg);">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="breadcrumb-wrapper">
+                    <h2 class="product-title">Category</h2>
+                    <ol class="breadcrumb">
+                        <li><a href="/Home/Index">Home /</a></li>
+                        <li class="current">Category</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="services bg-light section-padding">
+    <div class="container">
+        <div class="row">
+            @{
+                var count = 1;
+            }
+            @foreach ( var item in Model)
+            {
+
+                <div class="col-md-6 col-lg-4 col-xs-12">
+                    <div class="services-item wow fadeInRight animated" data-wow-delay="0.2s" style="visibility: visible;-webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
+                        <div class="icon">
+                            <i class="">@count</i>
+                        </div>
+                        <div class="services-content">
+                            <h3><a href="/Home/GetProductByCategoryId/@item.Id">@item.Name</a></h3>
+                           
+                        </div>
+                    </div>
+                </div>
+                count++;
+            }
+           
+        </div>
+    </div>
+</section>

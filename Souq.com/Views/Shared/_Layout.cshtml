@@ -1,0 +1,233 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Souq.Com</title>
+
+    <link rel="stylesheet" type="text/css" href="~/assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="~/assets/fonts/line-icons.css">
+
+    <link rel="stylesheet" type="text/css" href="~/assets/css/slicknav.css">
+
+    <link rel="stylesheet" type="text/css" href="~/assets/css/color-switcher.css">
+
+    <link rel="stylesheet" type="text/css" href="~/assets/css/animate.css">
+
+    <link rel="stylesheet" type="text/css" href="~/assets/css/owl.carousel.css">
+
+    <link rel="stylesheet" type="text/css" href="~/assets/css/main.css">
+
+    <link rel="stylesheet" type="text/css" href="~/assets/css/responsive.css">
+
+
+    <script src="~/assets/js/jquery-min.js"></script>
+
+    <script src="~/assets/js/jquery.counterup.min.js"></script>
+
+    <script src="~/assets/js/jquery.slicknav.js"></script>
+</head>
+<body>
+
+    <header id="header-wrap">
+
+        <div class="top-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 col-md-5 col-xs-12">
+
+                        <ul class="list-inline">
+                            <li><i class="lni-phone"></i> +962786877075</li>
+                            <li><i class="lni-envelope"></i> odaiabuaishah@gmail.com</li>
+                        </ul>
+
+                    </div>
+                    <div class="col-lg-5 col-md-7 col-xs-12">
+                        <div class="roof-social float-right">
+                            <a class="facebook" href="#"><i class="lni-facebook-filled"></i></a>
+                            <a class="twitter" href="#"><i class="lni-twitter-filled"></i></a>
+                            <a class="instagram" href="#"><i class="lni-instagram-filled"></i></a>
+                            <a class="linkedin" href="#"><i class="lni-linkedin-fill"></i></a>
+                            <a class="google" href="#"><i class="lni-google-plus"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <nav class="navbar navbar-expand-lg bg-white fixed-top scrolling-navbar">
+            <div class="container">
+
+                <div class="navbar-header">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        <span class="lni-menu"></span>
+                        <span class="lni-menu"></span>
+                        <span class="lni-menu"></span>
+                    </button>
+                    <a href="/Home/Index" class="navbar-brand"><img src="~/assets/img/aa.webp" alt="logo"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="main-navbar">
+                    <ul class="navbar-nav mr-auto w-100 justify-content-center">
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle" href="/Home/Index">
+                                Home
+                            </a>
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Home/Category">
+                                Categories
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="/Home/AboutUs">
+                                ABOUT 
+                            </a>
+                           
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="/FAQs/ViewFaq" >
+                                FAQ
+                            </a>
+                            
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="/Home/Review">
+                                REVIEWS
+                            </a>
+                           
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Home/Contact">
+                                Contact
+                            </a>
+                        </li>
+                        <partial name="_LoginPartial" />
+                    </ul>
+                    <div class="post-btn">
+                        <a class="btn btn-common" href="/Products/Create"><i class="lni-pencil-alt"></i> Post an Ad</a>
+                    </div>
+                </div>
+            </div>
+
+           
+
+        </nav>
+
+
+
+
+    </header>
+
+
+    <div>
+        @RenderBody()
+    </div>
+
+
+
+
+    <footer>
+
+        <section class="footer-Content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-xs-6 col-mb-12">
+                        <div class="widget">
+                            <div class="footer-logo"><p style="color:#E91E63;font-size:30px">Souq.Com</p></div>
+                            <div class="textwidget">
+                                <p>Buy and sell everything from used cars to mobile phones and computers, or search for property, jobs and more</p>
+                            </div>
+                            <ul class="mt-3 footer-social">
+                                <li><a class="facebook" href="#"><i class="lni-facebook-filled"></i></a></li>
+                                <li><a class="twitter" href="#"><i class="lni-twitter-filled"></i></a></li>
+                                <li><a class="linkedin" href="#"><i class="lni-linkedin-fill"></i></a></li>
+                                <li><a class="google-plus" href="#"><i class="lni-google-plus"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-xs-6 col-mb-12">
+                        <div class="widget">
+                            <h3 class="block-title">Quick Link</h3>
+                            <ul class="menu">
+                                <li><a href="/Home/AboutUs">- About Us</a></li>
+                                
+                                <li><a href="/FAQs/ViewFaq">- FAQ's</a></li>
+                               
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-xs-6 col-mb-12">
+                        <div class="widget">
+                            <h3 class="block-title">Contact Info</h3>
+                            <ul class="contact-footer">
+                                <li>
+                                    <strong><i class="lni-phone"></i></strong><span>  +962786877075</span>
+                                </li>
+                               
+                                <li>
+                                    <strong><i class="lni-map-marker"></i></strong><span>Jordan-Amman</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <div id="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="site-info text-center">
+                            <p>Odai Abu Aishah</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <a href="#" class="back-to-top">
+        <i class="lni-chevron-up"></i>
+    </a>
+
+    <div id="preloader">
+        <div class="loader" id="loader-1"></div>
+    </div>
+
+
+    @* <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script> *@
+   
+    <script src="~/assets/js/popper.min.js"></script>
+    <script src="~/assets/js/bootstrap.min.js"></script>
+    @* <script src="~/assets/js/color-switcher.js"></script> *@
+   
+    <script src="~/assets/js/waypoints.min.js"></script>
+    <script src="~/assets/js/wow.js"></script>
+    <script src="~/assets/js/owl.carousel.min.js"></script>
+   
+    <script src="~/assets/js/main.js"></script>
+    <script src="~/assets/js/form-validator.min.js"></script>
+    <script src="~/assets/js/contact-form-script.min.js"></script>
+    <script src="~/assets/js/summernote.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>
+
+
+
+
+
+

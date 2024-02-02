@@ -1,0 +1,199 @@
+﻿@model IEnumerable<Souq.com.Models.Product>
+@* 
+@{
+    ViewData["Title"] = "Index";
+}
+ *@
+
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.css" />
+
+<script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('#myTable').DataTable();
+    } );
+</script>
+
+@* <h1>Index</h1>
+<hr />
+<hr />
+<hr />
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<table class="table" id="myTable">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Image)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.category)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Image)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.category.Name)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table> *@
+<div class="page-header" style="background: url(assets/img/banner1.jpg);">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="breadcrumb-wrapper">
+                    <h2 class="product-title">My Ads</h2>
+                    <ol class="breadcrumb">
+                        <li><a href="/Home/Index">Home /</a></li>
+                        <li class="current">My Ads</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+
+<div id="content" class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-3 page-sidebar">
+                <aside>
+                    <div class="sidebar-box">
+                        <div class="user">
+                           
+                            <div class="usercontent">
+                                <h3>Hello </h3>
+                                <h4>@User.Identity?.Name!</h4>
+                            </div>
+                        </div>
+                        <nav class="navdashboard">
+                            <ul>
+                                <li>
+                                    <a href="/Home/AboutUs">
+                                        <i class="lni-dashboard"></i>
+                                        <span>About</span>
+                                    </a>
+                                </li>
+                                <li>
+
+                                    <a href="/Home/Contact">
+                                        <i class="lni-envelope"></i>
+                                        <span>Contact</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a  href="/Products/Index">
+                                        <i class="lni-layers"></i>
+                                        <span>My Ads</span>
+                                    </a>
+                                </li>
+                                
+                                
+                            </ul>
+                        </nav>
+                    </div>
+                   
+                </aside>
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-9">
+                <div class="page-content">
+                    <div class="inner-box">
+                        <div class="dashboard-box">
+                            <h2 class="dashbord-title">My Ads</h2>
+                        </div>
+                        <div class="dashboard-wrapper">
+                           
+                            <table class="table table-responsive dashboardtable tablemyads" id="myTable">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="checkedall">
+                                                <label class="custom-control-label" for="checkedall"></label>
+                                            </div>
+                                        </th>
+                                        <th>@Html.DisplayNameFor(model => model.Image)</th>
+                                        <th>@Html.DisplayNameFor(model => model.Name)</th>
+                                        <th>@Html.DisplayNameFor(model => model.Description)</th>
+                                        <th>@Html.DisplayNameFor(model => model.category)</th>
+                                        <th>@Html.DisplayNameFor(model => model.Date)</th>
+                                        <th>@Html.DisplayNameFor(model => model.Price)</th>
+                                       
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model) {
+                                    <tr data-category="active">
+                                        <td>
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="adone">
+                                                <label class="custom-control-label" for="adone"></label>
+                                            </div>
+                                        </td>
+                                        <td class="photo"><img class="img-fluid" src="~/Imgs/@item.Image " alt=""></td>
+                                        <td data-title="Title">
+                                            <h3>@Html.DisplayFor(modelItem => item.Name)</h3>
+                                            
+                                        </td>
+                                        <td data-title="Category"><span class="adcategories">@Html.DisplayFor(modelItem => item.Description)</span></td>
+                                        <td data-title="Ad Status"><span class="adstatus adstatusactive">@Html.DisplayFor(modelItem => item.category.Name)</span></td>
+                                        <td data-title="Price">
+                                            <h3>@Html.DisplayFor(modelItem => item.Date)</h3>
+                                        </td>
+                                        <td data-title="Action">
+                                            <div class="btns-actions">
+                                                    <h3>JD @Html.DisplayFor(modelItem => item.Price)</h3>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    }
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

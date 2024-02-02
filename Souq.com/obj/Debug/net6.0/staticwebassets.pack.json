@@ -1,0 +1,905 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Souq.com.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Souq.com.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\Imgs\\26b26fb3-8291-4b48-bd42-e1128693fa25_guns.jpeg",
+      "PackagePath": "staticwebassets\\Imgs\\26b26fb3-8291-4b48-bd42-e1128693fa25_guns.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\Imgs\\27c1a3c1-4076-40e8-adaa-ed0cc20028eb_img1.jpg",
+      "PackagePath": "staticwebassets\\Imgs\\27c1a3c1-4076-40e8-adaa-ed0cc20028eb_img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\Imgs\\3c82042c-a6f1-4fdb-b1da-5ad94cb5d199_gclass.webp",
+      "PackagePath": "staticwebassets\\Imgs\\3c82042c-a6f1-4fdb-b1da-5ad94cb5d199_gclass.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\Imgs\\97e0c265-99df-4695-8ae2-9e61031feb2f_phone.jpg",
+      "PackagePath": "staticwebassets\\Imgs\\97e0c265-99df-4695-8ae2-9e61031feb2f_phone.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\Imgs\\9f621c64-9cfe-49ba-81b6-f1602c2e1629_s23.jpg",
+      "PackagePath": "staticwebassets\\Imgs\\9f621c64-9cfe-49ba-81b6-f1602c2e1629_s23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\Imgs\\a0b8896c-d949-4100-b70c-7f92f149c271_lenovo.jpg",
+      "PackagePath": "staticwebassets\\Imgs\\a0b8896c-d949-4100-b70c-7f92f149c271_lenovo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\Imgs\\a16f7ff6-a7fb-479e-9d93-ccb30321bdbb_galaxy-s23-specs-color-lavender.jpg",
+      "PackagePath": "staticwebassets\\Imgs\\a16f7ff6-a7fb-479e-9d93-ccb30321bdbb_galaxy-s23-specs-color-lavender.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\Imgs\\b1b7c87a-8dd5-4241-86e6-0ff494523209_lenovo.jpg",
+      "PackagePath": "staticwebassets\\Imgs\\b1b7c87a-8dd5-4241-86e6-0ff494523209_lenovo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\Imgs\\d7bde65c-0589-4c7c-b051-76a4f5aed66f_s23.jpg",
+      "PackagePath": "staticwebassets\\Imgs\\d7bde65c-0589-4c7c-b051-76a4f5aed66f_s23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\Imgs\\fb403c0b-7b38-4478-b7ee-0ea534b6f529_galaxy-s23-specs-color-lavender.jpg",
+      "PackagePath": "staticwebassets\\Imgs\\fb403c0b-7b38-4478-b7ee-0ea534b6f529_galaxy-s23-specs-color-lavender.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assetsAdmin\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\css\\style.css",
+      "PackagePath": "staticwebassets\\assetsAdmin\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\img\\Admin.webp",
+      "PackagePath": "staticwebassets\\assetsAdmin\\img\\Admin.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\img\\logo.png",
+      "PackagePath": "staticwebassets\\assetsAdmin\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\img\\user.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\img\\user.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\js\\main.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\lib\\chart\\chart.min.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\chart\\chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\owlcarousel"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\lib\\tempusdominus\\js\\moment-timezone.min.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\tempusdominus\\js\\moment-timezone.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\lib\\tempusdominus\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\tempusdominus\\js\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\css\\animate.css",
+      "PackagePath": "staticwebassets\\assets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\css\\color-switcher.css",
+      "PackagePath": "staticwebassets\\assets\\css\\color-switcher.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\css\\font\\summernote4c4d.eot",
+      "PackagePath": "staticwebassets\\assets\\css\\font\\summernote4c4d.eot"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\css\\font\\summernote4c4d.ttf",
+      "PackagePath": "staticwebassets\\assets\\css\\font\\summernote4c4d.ttf"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\css\\font\\summernote4c4d.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\font\\summernote4c4d.woff"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\css\\font\\summernoted41d.eot",
+      "PackagePath": "staticwebassets\\assets\\css\\font\\summernoted41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\css\\main.css",
+      "PackagePath": "staticwebassets\\assets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\css\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\assets\\css\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\css\\owl.video.play.html",
+      "PackagePath": "staticwebassets\\assets\\css\\owl.video.play.html"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\assets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\css\\slicknav.css",
+      "PackagePath": "staticwebassets\\assets\\css\\slicknav.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\css\\summernote.css",
+      "PackagePath": "staticwebassets\\assets\\css\\summernote.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\fonts\\LineIcons0ad2.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\LineIcons0ad2.eot"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\fonts\\LineIcons0ad2.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\LineIcons0ad2.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\fonts\\LineIcons0ad2.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\LineIcons0ad2.ttf"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\fonts\\LineIcons0ad2.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\LineIcons0ad2.woff"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\fonts\\line-icons.css",
+      "PackagePath": "staticwebassets\\assets\\fonts\\line-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\aa.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\aa.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\about\\about.png",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\about.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\author\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\author\\img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\background\\counter-back1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\background\\counter-back1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\banner1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\banner1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\blog\\blog1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\blog\\blog2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\blog\\blog3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\blog\\img-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\blog\\img-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\blog\\img-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\img-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\blog\\thumb1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\thumb1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\blog\\thumb2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\thumb2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\blog\\thumb3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\thumb3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\blog\\thumb4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\thumb4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\blog\\thumb5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\thumb5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\blog\\user1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\user1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\blog\\user2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\user2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\blog\\user3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\user3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\category\\img-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\category\\img-1.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\category\\img-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\category\\img-2.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\category\\img-3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\category\\img-3.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\category\\img-4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\category\\img-4.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\category\\img-5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\category\\img-5.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\category\\img-6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\category\\img-6.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\cities\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cities\\img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\cities\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cities\\img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\cities\\img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cities\\img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\cities\\img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cities\\img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\cities\\img5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cities\\img5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\cities\\img6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cities\\img6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\details\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\details\\img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\details\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\details\\img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\details\\img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\details\\img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\details\\img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\details\\img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\details\\img5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\details\\img5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\featured\\img-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\featured\\img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\featured\\img-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\featured\\img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\featured\\img-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\featured\\img-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\featured\\img-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\featured\\img-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\featured\\img-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\featured\\img-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\featured\\img-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\featured\\img-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\hero-area.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\hero-area.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\product\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\product\\img10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\img10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\product\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\product\\img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\product\\img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\product\\img5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\img5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\product\\img6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\img6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\product\\img7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\img7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\product\\img8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\img8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\product\\img9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\product\\img9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\productinfo\\agent.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\productinfo\\agent.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\productinfo\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\productinfo\\img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\productinfo\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\productinfo\\img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\productinfo\\img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\productinfo\\img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\slider\\slider-bg1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\slider\\slider-bg1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\slider\\slider-bg2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\slider\\slider-bg2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\slider\\slider-bg3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\slider\\slider-bg3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\testimonial\\img1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial\\img1.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\testimonial\\img2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial\\img2.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\testimonial\\img3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial\\img3.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\testimonial\\img4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial\\img4.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\img\\testimonial\\img5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial\\img5.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\js\\color-switcher.js",
+      "PackagePath": "staticwebassets\\assets\\js\\color-switcher.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\js\\contact-form-script.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\contact-form-script.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\js\\form-validator.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\form-validator.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\js\\jquery-min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\js\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\js\\jquery.slicknav.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.slicknav.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\js\\summernote.js",
+      "PackagePath": "staticwebassets\\assets\\js\\summernote.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\js\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\my project\\Souq.com\\Souq.com\\wwwroot\\assets\\js\\wow.js",
+      "PackagePath": "staticwebassets\\assets\\js\\wow.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Souq.com.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Souq.com.props",
+      "PackagePath": "build\\Souq.com.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Souq.com.props",
+      "PackagePath": "buildMultiTargeting\\Souq.com.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Souq.com.props",
+      "PackagePath": "buildTransitive\\Souq.com.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
