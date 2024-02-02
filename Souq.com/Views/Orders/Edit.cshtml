@@ -1,6 +1,9 @@
 ﻿@model Souq.com.Models.Order
-
 @{
+    Layout = "~/views/Shared/_LayoutAdmin.cshtml";
+}
+
+@* @{
     ViewData["Title"] = "Edit";
 }
 
@@ -48,7 +51,47 @@
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
-
+ *@
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
+
+
+
+<div class="col-sm-12 col-xl-6" style="width:100%;">
+    <div class="bg-secondary rounded h-100 p-4">
+        <h6 class="mb-4">Edit</h6>
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="mb-3">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" name="Name" type="text" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Email" class="form-label">Answer</label>
+                <input asp-for="Email"  name="Answer" type="email" class="form-control">
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="PhoneNumber" class="form-label">Answer</label>
+                <input asp-for="PhoneNumber" name="Answer" type="number" class="form-control">
+                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Address" class="form-label">Answer</label>
+                <input asp-for="Address" name="Answer" type="text" class="form-control">
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="UserId" class="form-label">Answer</label>
+                <input asp-for="UserId" name="Answer" type="text" class="form-control">
+                <span asp-validation-for="UserId" class="text-danger"></span>
+            </div>
+
+            <input type="submit" value="Save" class="btn btn-primary" style="background-color:red" />|
+            <a asp-action="Index" style="color:red">Back to List</a>
+        </form>
+    </div>
